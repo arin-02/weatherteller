@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/weatherteller/static/css/main.e83f6e6c.chunk.css",
-    "main.js": "/weatherteller/static/js/main.e9fb7507.chunk.js",
-    "main.js.map": "/weatherteller/static/js/main.e9fb7507.chunk.js.map",
+    "main.js": "/weatherteller/static/js/main.c66837ca.chunk.js",
+    "main.js.map": "/weatherteller/static/js/main.c66837ca.chunk.js.map",
     "runtime-main.js": "/weatherteller/static/js/runtime-main.65f4ab68.js",
     "runtime-main.js.map": "/weatherteller/static/js/runtime-main.65f4ab68.js.map",
     "static/js/2.d61d1522.chunk.js": "/weatherteller/static/js/2.d61d1522.chunk.js",
@@ -18,6 +18,6 @@
     "static/js/runtime-main.65f4ab68.js",
     "static/js/2.d61d1522.chunk.js",
     "static/css/main.e83f6e6c.chunk.css",
-    "static/js/main.e9fb7507.chunk.js"
+    "static/js/main.c66837ca.chunk.js"
   ]
 }
