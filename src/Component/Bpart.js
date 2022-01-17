@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react'
-
+import { api_key } from './Apiweather';
 function Bpart(props) {
 
     const [cityn, setCityn] = useState("Dharuhera");
@@ -8,7 +8,7 @@ function Bpart(props) {
     const [temp, setTemp] = useState(0);
     const [type, setType] = useState("");
     const [humid, setHumid] = useState(0);
-     
+    const [api, setApi] = useState(api_key);
 
     const changing = (event) => {
         let newval = event.target.value;
@@ -23,7 +23,7 @@ function Bpart(props) {
 
     const aboutweather = async () => {
 
-        let url = `https://api.openweathermap.org/data/2.5/weather?q=${cityn}&appid=b885d583a2b6873491af9d5ac0c70769`;
+        let url = `https://api.openweathermap.org/data/2.5/weather?q=${cityn}&appid=${api}`;
         let datafetching = await fetch(url);
         let parseddata = await datafetching.json();
        
@@ -60,10 +60,10 @@ function Bpart(props) {
             </div>
 
             
-            <div className=" cc form-floating  ">
+            <div className=" cc form-floating  " style={{width:"50%"}}> 
             
-                <textarea style={{width:"50%"}} onChange={changing} className="  form-control  " value={cityn} placeholder="Leave a comment here" id="floatingTextarea"></textarea>
-                <label  htmlFor="floatingTextarea ">CITY/DISTRICT/STATE:-</label>
+                <textarea  onChange={changing} className="  form-control  " value={cityn} placeholder="Leave a comment here" id="floatingTextarea"></textarea>
+                <label  htmlFor="floatingTextarea " >CITY/DISTRICT/STATE:-</label>
             </div>
             
 

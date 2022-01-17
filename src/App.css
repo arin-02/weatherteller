@@ -5,6 +5,8 @@
 }
 .comtainerall{
     background-image: url('./Component/bg.jpg');
+    background-repeat: no-repeat;
+    background-size: auto;
 }
 #header{
     position: absolute;
@@ -23,7 +25,9 @@
 
 .cc{
     position: relative;
+    
     left: 25%;
+    
 }
 .navbar{
     position: sticky;

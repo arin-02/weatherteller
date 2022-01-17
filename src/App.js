@@ -10,7 +10,7 @@ function App() {
 
   return (
     <>
-      <div className="containerall">
+      <div className="containerall" >
       <Navbar />
       <Bpart />
 

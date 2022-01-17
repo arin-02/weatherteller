@@ -8,7 +8,7 @@ function Navbar() {
             <div className="subpart"></div>
                 <div className="container-fluid">
 
-                <nav className="navbar navbar-light "style={{backgroundColor:"#a8ccf4"}}>
+                <nav className="navbar navbar-light " style={{backgroundColor:"#a8ccf4"}}>
                     <div className="container-fluid" style={{gap:"10px"}}>
                     <img  src={logo} alt="" width="30" height="30" className="d-inline-block align-text-top "/>
                         <a className="navbar-brand" href="/">
