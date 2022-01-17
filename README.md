@@ -1,2 +1,2 @@
-Run from here:- 
-https://arin-02.github.io/weatherteller/
+OPEN THIS AND CHECK MY 3rd PROJECT:-
+https://portfolio-vert-zeta.vercel.app/
